@@ -222,12 +222,18 @@
   <section class="section" id="ai">
     <div class="container">
       <h2 class="section-heading">AI Agents &amp; Apps</h2>
-      <p class="section-desc">Production apps and Claude-powered agents for player development, scouting, and media &mdash; Python/Flask, Postgres, and Railway.</p>
+      <p class="section-desc">Live apps and Claude-powered agents for player development and scouting &mdash; Python/Flask and Postgres, deployed on Railway.</p>
       <div class="card-grid">
         <a href="https://web-production-c91af.up.railway.app/" class="card" target="_blank" rel="noopener">
           <span class="card-type type-ai">AI Agent &bull; Live</span>
           <h4>Bach Pitching Analytics</h4>
           <p>Pitcher development analyst for MLB (Statcast &amp; PITCHf/x, 2008&ndash;2026) and rookie-level Hawk-Eye. Arsenal graded against the level, plate discipline, percentiles, 3D flight paths and tunnels, MLB pitch comps, and click-to-watch pitch video. Its knowledge is a tested rules engine in code &mdash; every finding traces to a rule, the pitcher's own numbers, and a credited source.</p>
+          <span class="card-action">Open the App &rarr;</span>
+        </a>
+        <a href="https://web-production-510f.up.railway.app/" class="card" target="_blank" rel="noopener">
+          <span class="card-type type-ai">AI Agent &bull; Live</span>
+          <h4>Moeller Game Prep Agent</h4>
+          <p>Claude API scouting assistant over 14,700+ charted pitches: opponent reports, matchup plans, and tendency analysis on demand.</p>
           <span class="card-action">Open the App &rarr;</span>
         </a>
         <div class="card card-no-link">
@@ -236,35 +242,29 @@
           <p>One player-centered system for the program: Rapsodo, Blast, HitTrax, and charted game data in Postgres with nightly pipelines; investigating Pitching and Hitting Analyst agents that write per-player development notes with embedded charts; and a Team Development workbench for querying, comparing, and charting the roster.</p>
           <span class="pw-note">Private &mdash; demo on request</span>
         </div>
-        <a href="https://github.com/IDBach16/Scouting_Agent" class="card" target="_blank" rel="noopener">
-          <span class="card-type type-ai">AI Agent</span>
-          <h4>Scouting Agent</h4>
-          <p>Claude API scouting assistant over 14,700+ charted pitches: opponent reports, matchup plans, and tendency analysis on demand.</p>
-          <span class="card-action"><svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14" style="vertical-align:-2px;margin-right:4px"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>View on GitHub &rarr;</span>
+        <a href="https://web-production-bf2c9.up.railway.app/" class="card" target="_blank" rel="noopener">
+          <span class="card-type type-rshiny">Web App &bull; Live</span>
+          <h4>Moeller Baseball Analytics</h4>
+          <p>The coaches' hub: Blast Motion and AWRE game-data integrations, the program's apps in one place, and a coach assistant chat.</p>
+          <span class="card-action">Open the App &rarr;</span>
         </a>
-        <div class="card card-no-link">
+        <a href="https://web-production-08767.up.railway.app/" class="card" target="_blank" rel="noopener">
+          <span class="card-type type-rshiny">Web App &bull; Live</span>
+          <h4>Moeller Pitcher Reports</h4>
+          <p>Pitcher report cards from the season's charted game data, with MoeStuff+ and a staff leaderboard.</p>
+          <span class="card-action">Open the App &rarr;</span>
+        </a>
+        <a href="https://web-production-51eb5b.up.railway.app/" class="card" target="_blank" rel="noopener">
+          <span class="card-type type-rshiny">Web App &bull; Live</span>
+          <h4>Moeller Hitter Reports</h4>
+          <p>Hitter report cards from the season's charted game data, with MoeSwing+ and a lineup leaderboard.</p>
+          <span class="card-action">Open the App &rarr;</span>
+        </a>
+        <a href="https://moeller-charting-production.up.railway.app/" class="card" target="_blank" rel="noopener">
           <span class="card-type type-rshiny">Web App &bull; Live</span>
           <h4>Pitch-by-Pitch Charting App</h4>
           <p>Charting for off-season bullpens and live at-bats &mdash; rebuilt from a Shiny app into Flask + Postgres, with session dashboards.</p>
-          <span class="card-action"><a href="https://moeller-charting-production.up.railway.app/" target="_blank" rel="noopener" class="inline-link">Open the App</a> &middot; <a href="https://github.com/IDBach16/moeller-charting" target="_blank" rel="noopener" class="inline-link">Source</a></span>
-        </div>
-        <a href="https://web-production-bf2c9.up.railway.app/" class="card" target="_blank" rel="noopener">
-          <span class="card-type type-rshiny">Web App &bull; Live</span>
-          <h4>Moeller Baseball Dashboards</h4>
-          <p>The coaches' hub: Blast Motion and AWRE game-data integrations, pitcher and hitter cards, and a coach assistant chat.</p>
-          <span class="card-action">Open the Dashboards &rarr;</span>
-        </a>
-        <a href="https://github.com/IDBach16/moeller-rapsodo" class="card" target="_blank" rel="noopener">
-          <span class="card-type type-github">Data Pipeline</span>
-          <h4>Moeller Rapsodo</h4>
-          <p>Pitching dashboard reading the player-development Postgres: pitch location, percentile rankings, movement profiles, and velocity by pitch.</p>
-          <span class="card-action"><svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14" style="vertical-align:-2px;margin-right:4px"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>View on GitHub &rarr;</span>
-        </a>
-        <a href="https://github.com/IDBach16/Fantasy_MLB" class="card" target="_blank" rel="noopener">
-          <span class="card-type type-github">AI Agent</span>
-          <h4>Fantasy MLB Assistant</h4>
-          <p>Agent-driven multi-league fantasy manager: pulls every data source, analyzes each team against its league's rules, and sends daily reports and real-time alerts.</p>
-          <span class="card-action"><svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14" style="vertical-align:-2px;margin-right:4px"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>View on GitHub &rarr;</span>
+          <span class="card-action">Open the App &rarr;</span>
         </a>
       </div>
     </div>
