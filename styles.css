@@ -454,6 +454,16 @@ ul { list-style: none }
   border: 1px solid rgba(252,206,1,.18);
 }
 
+.type-ai {
+  background: rgba(0,210,200,.08); color: #3fe0d6;
+  border: 1px solid rgba(0,210,200,.18);
+}
+.type-github {
+  background: rgba(255,255,255,.05); color: #cfd6e0;
+  border: 1px solid rgba(255,255,255,.12);
+}
+.inline-link { color: var(--gold); text-decoration: underline; text-underline-offset: 2px; }
+
 .card-action {
   display: inline-block; margin-top: 16px;
   font-size: .82rem; font-weight: 700;
